@@ -14,8 +14,33 @@ To start the application, run the following command:
 
 node index.js
 
+The application will start a server and listen for requests on port 3000.
+
+Testing the Application
+To run the unit tests for this application, you will need to install the development dependencies listed in the package.json file. To do this, run the following command:
+
+npm install
+
+Then, to run the tests, use the following command:
+
+npm test
+
+This will run all of the tests defined in the test directory using the Mocha test runner.
+
+Clean Code
+This application follows the principles of clean code, including:
+
+Using clear and descriptive names for variables, functions, and other identifiers
+Splitting the code into small, focused functions
+Using appropriate whitespace and indentation
+Adding comments to explain the purpose and behavior of the code
+Dependencies
+This application uses the following dependencies:
+
+express: a web framework for Node.js
+redis: a client library for working with Redis databases
+The development dependencies include:
+
 chai: a library for writing assertions in tests
 chai-http: a plugin for testing HTTP requests with Chai
 mocha: a test runner for running the tests
-License
-This application is released under the MIT License. See the LICENSE file for more details.
