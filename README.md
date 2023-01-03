@@ -1,1 +1,2 @@
 # Internet-BillBoard
+npm install
